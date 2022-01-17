@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/AuthorName_insert_cod.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/Author_Name.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/Change_Password_cod.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/Department of Media.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/Languages Department.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/Messages.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/Science Department.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/category-CP.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/category-edit-CP.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/category-insert-CP-cod.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/complaint_cod_php.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/computer section.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/deelat-category-CP.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/deelat.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/delat_AuthorName.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/delat_messages.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/edit_Author_Name.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/home-CP.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/prodcut-edit-CP.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/product-CP.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/product-insert-CP_cod.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/product.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/Control Panel/serch.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/se/Project/website/login.php" dialect="GenericSQL" />
+  </component>
+</project>

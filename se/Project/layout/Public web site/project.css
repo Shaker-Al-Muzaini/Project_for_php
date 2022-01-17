@@ -1,0 +1,77 @@
+/*Start Our FrameWork*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+
+/*التحريك*/
+
+.our-team{
+    padding: 50px 0;
+}
+
+our-team h2{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+
+.our-team .the-team .person{
+    float: left;
+    width: 29%;
+    margin-left: 2%;
+    color: #888;
+}
+
+.our-team .the-team .marginPerson{
+    margin-left: 20%;
+}
+
+.our-team .the-team .person:hover img{
+    filter: none;
+    -webkit-filter: grayscale(0)
+}
+
+.our-team .the-team .person:hover .fa-facebook{
+    background: #3b5998;
+}
+
+.our-team .the-team .person:hover .fa-twitter{
+    background: #55acee;
+}
+
+.our-team .the-team .person:hover .fa-google-plus{
+    background: #dc4e41;
+}
+
+.our-team .the-team .person img{
+    width: 265px;
+    height: 290px;
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1)
+}
+
+
+/* ايقونات*/
+.our-team .the-team .social-icons i{
+    background: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 50%;
+}
+

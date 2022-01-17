@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito",sans-serif;
+    
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(../../font/Lobster-Regular.ttf);
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    opacity: .8;
+    margin-bottom: 10px;
+}
+
+
+
+/* title */
+
+.h1-title{
+    text-align: center;
+    margin: 30px;
+}
+
+.h1-title a{
+    color: black;
+    font-family: Lobster, serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.h1-title a:hover{
+    color: #734046;
+}
+
+
+
+/* navbar */
+
+.nav-div ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-div li{
+    display: inline-block;
+}
+
+.nav-div a{
+    display: block;
+    padding: 0 15px;
+    color: black;
+    margin-top: 5px;
+    font-weight: 600;
+    opacity: .8;
+}
+
+.nav-div a:hover{
+    color: #734046;
+}
+
+#link-a{
+    color: #734046
+}
+
+
+
+/* slider */
+
+#slider{
+    overflow: hidden;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    left: 0;
+    margin-top: 20px;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+    
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -200%;
+    }
+
+    70%{
+        left: -200%;
+    }
+}
+
+
+/* product */
+
+.content img{
+    width: 250px;
+    display: block;
+    margin: 0 15px auto;
+    margin-bottom: 100px;
+
+}
+
+.e-commerece-product{
+    margin: 112px;
+    text-align: center;
+}
+
+.feature-items{
+    margin-bottom: 50px;
+}
+
+.col-md-3{
+    width: 250px;
+    float: left;
+
+}
+
+.product{
+    background-image: linear-gradient(45deg,rgb(253, 253, 253),white);
+}
+
+.product-details{
+    text-align: left;
+    padding: 17px 0;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.title:hover{
+    color: #734046;
+}
+
+.price{
+    width: 100%;
+    font-size: 17px;
+    margin-top: 9px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    display:block;
+}
+
+.price ins{
+    text-decoration: none;
+    color: #ff4646;
+}
+
+.price ins:hover{
+    color: #734046;
+}
+
+
+
+
+/* form */
+
+.div-form{
+    clear: both;
+    background: #313840;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.inner-width{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.div-form h1{
+    font-size: 20px;
+    color: #734046;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.div-form .link-button{
+    color: #734046;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #734046;
+    border-radius: 8px;
+    padding: 12px 40px;
+    text-decoration: none;
+
+}
+
+.div-form .link-button:hover{
+    background: #70a1ff;
+    color: #fff;
+    border: 1px solid #70a1ff;
+    transition: 0.4s linear;
+}
+
+
+/* footer */
+
+.footer-h1-title{
+    text-align: center;
+    color: black;
+    font-family: Lobster, serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.footer-nav-div ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav-div li{
+    display: inline-block;
+}
+
+.footer-nav-div a{
+    display: block;
+    padding: 0 15px;
+    color: black;
+    margin-top: 30px;
+    font-weight: 600;
+    opacity: .8;
+}
+
+.footer-nav-div a:hover{
+    color: #734046;
+}
+
+.footer-hr{
+    margin-top: 80px;
+}
+
+.footer-copyright{
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: .5;
+    margin: 20px;
+}
+
+

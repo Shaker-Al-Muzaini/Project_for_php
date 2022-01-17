@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito",sans-serif;
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(../../font/Lobster-Regular.ttf);
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    opacity: .5;
+    margin-bottom: 10px;
+}
+
+
+
+/* title */
+
+.h1-title{
+    text-align: center;
+    margin: 30px;
+}
+
+.h1-title a{
+    color: black;
+    font-family: Lobster, serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.h1-title a:hover{
+    color: #734046;
+}
+
+/* navbar */
+
+.nav-div ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-div li{
+    display: inline-block;
+}
+
+.nav-div a{
+    display: block;
+    padding: 0 15px;
+    color: black;
+    margin-top: 5px;
+    font-weight: 600;
+    opacity: .8;
+}
+
+.nav-div a:hover{
+    color: #734046;
+}
+
+#link-a{
+    color: #734046
+}
+
+.hr-header{
+    margin: 10px 30% 0 30%;
+    opacity: .2;
+}
+
+/* search */
+
+nav .search_box{
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+
+nav .search_box input{
+    border: none;
+    outline: none;
+    background: #313840;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 200px;
+    color: #fff;
+}
+
+nav .search_box  span{
+    color: #0a5071;
+    font-size: 20px;
+    background: #313840;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+nav .search_box  span:hover{
+    color: #fff;
+}
+
+nav .search_box  span::after{
+    height: 100%;
+    width: 0%;
+    content: '';
+    background: #734046;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+nav .search_box  span:hover::after{
+    width: 100%;
+}
+/* product */
+
+.content img{
+    width: 300px;
+    display: block;
+}
+
+.e-commerece-product{
+    margin: 112px;
+    text-align: center;
+}
+
+.feature-items{
+    margin-bottom: 50px;
+    width: 50%;
+    float: left;
+    opacity: .8;
+}
+
+.feature-items h2{
+    text-align: left;
+}
+
+.feature-items ul{
+    text-align: right;
+}
+
+.feature-items li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.col-md-3{
+    width: 300px;
+    float: left;
+    margin: 0 35px auto;
+    margin-bottom: 50px;
+}
+
+.product{
+    background-image: linear-gradient(45deg,rgb(253, 253, 253),white);
+}
+
+.product-details{
+    text-align: left;
+    padding: 17px 0;
+}
+
+.product-details .grid-container{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.product-details .grid-container .title2{
+    font-size: 10px;
+    text-align: right;
+    opacity: .7;
+}
+
+.title:hover{
+    color: #734046;
+}
+
+.price{
+    width: 100%;
+    font-size: 17px;
+    margin-top: 9px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    display:block;
+}
+
+.price ins{
+    text-decoration: none;
+    color: #ff4646;
+}
+
+.price ins:hover{
+    color: #734046;
+}
+
+.price .price-small{
+    font-size: 14px;
+    opacity: .7;
+}
+
+
+
+
+/* form */
+
+.div-form{
+    clear: both;
+    background: #313840;
+    padding: 60px 0;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.inner-width{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.div-form h1{
+    font-size: 20px;
+    color: #734046;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.div-form .link-button{
+    color: #734046;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #734046;
+    border-radius: 8px;
+    padding: 12px 40px;
+}
+
+.div-form .link-button:hover{
+    background: #70a1ff;
+    color: #fff;
+    border: 1px solid #70a1ff;
+    transition: 0.4s linear;
+}
+
+
+/* footer */
+
+.footer-h1-title{
+    text-align: center;
+    margin: 30px;
+    margin-top: 60px;
+    color: black;
+    font-family: Lobster, serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.footer-nav-div ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav-div li{
+    display: inline-block;
+}
+
+.footer-nav-div a{
+    display: block;
+    padding: 0 15px;
+    color: black;
+    margin-top: 30px;
+    font-weight: 600;
+    opacity: .8;
+}
+
+.footer-nav-div a:hover{
+    color: #734046;
+}
+
+.footer-hr{
+    margin-top: 80px;
+}
+
+.footer-copyright{
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: .5;
+    margin: 20px;
+}

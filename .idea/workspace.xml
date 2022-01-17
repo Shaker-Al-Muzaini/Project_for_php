@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0bc56f8c-a037-4cc7-84a1-4f7339f15ee7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1yjlqafXwMgo3aI7WJ1qp81xVlQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bc56f8c-a037-4cc7-84a1-4f7339f15ee7" name="Default Changelist" comment="" />
+      <created>1632773073105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632773073105</updated>
+      <workItem from="1632773075493" duration="88000" />
+      <workItem from="1632809557699" duration="2018000" />
+      <workItem from="1632812481988" duration="244000" />
+      <workItem from="1632819850330" duration="5222000" />
+      <workItem from="1632838694569" duration="2819000" />
+      <workItem from="1632861746768" duration="2685000" />
+      <workItem from="1632904904968" duration="3503000" />
+      <workItem from="1633022078351" duration="1422000" />
+      <workItem from="1633031819522" duration="3618000" />
+      <workItem from="1634153947439" duration="211000" />
+      <workItem from="1636439554522" duration="1118000" />
+      <workItem from="1636533330983" duration="30000" />
+      <workItem from="1637079109122" duration="7095000" />
+      <workItem from="1637164643301" duration="64000" />
+      <workItem from="1637164822863" duration="48000" />
+      <workItem from="1637257797551" duration="20000" />
+      <workItem from="1637269354328" duration="12000" />
+      <workItem from="1637280007802" duration="748000" />
+      <workItem from="1637311562021" duration="291000" />
+      <workItem from="1637311881569" duration="15000" />
+      <workItem from="1639217815378" duration="1499000" />
+      <workItem from="1639335148158" duration="12000" />
+      <workItem from="1639337548043" duration="452000" />
+      <workItem from="1639467949078" duration="716000" />
+      <workItem from="1639498229983" duration="10000" />
+      <workItem from="1639558495865" duration="1024000" />
+      <workItem from="1639594118628" duration="3466000" />
+      <workItem from="1639648939080" duration="17824000" />
+      <workItem from="1639683372101" duration="1186000" />
+      <workItem from="1639750266485" duration="1299000" />
+      <workItem from="1639830355411" duration="34000" />
+      <workItem from="1639933720454" duration="3376000" />
+      <workItem from="1639988243926" duration="1670000" />
+      <workItem from="1639999278176" duration="28000" />
+      <workItem from="1640000881092" duration="7801000" />
+      <workItem from="1640013708892" duration="10026000" />
+      <workItem from="1640072654705" duration="3463000" />
+      <workItem from="1640082215103" duration="1665000" />
+      <workItem from="1640109296370" duration="5429000" />
+      <workItem from="1640191672410" duration="1609000" />
+      <workItem from="1640296704708" duration="4240000" />
+      <workItem from="1640368610900" duration="16860000" />
+      <workItem from="1640420787677" duration="7214000" />
+      <workItem from="1640430299584" duration="3071000" />
+      <workItem from="1640446373917" duration="12922000" />
+      <workItem from="1640469511967" duration="700000" />
+      <workItem from="1640587447209" duration="1647000" />
+      <workItem from="1640604211828" duration="1590000" />
+      <workItem from="1640607696697" duration="953000" />
+      <workItem from="1640704872852" duration="9675000" />
+      <workItem from="1640865566802" duration="144000" />
+      <workItem from="1641233382032" duration="222000" />
+      <workItem from="1642412623906" duration="1039000" />
+      <workItem from="1642441920501" duration="320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

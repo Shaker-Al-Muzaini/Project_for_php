@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito",sans-serif;
+    
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(../../font/Lobster-Regular.ttf);
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    opacity: .8;
+    margin-bottom: 10px;
+}
+
+
+
+/* title */
+
+.h1-title{
+    text-align: center;
+    margin: 30px;
+}
+
+.h1-title a{
+    color: black;
+    font-family: Lobster, serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+.h1-title a:hover{
+    color: #734046;
+}
+
+
+
+/* navbar */
+
+.nav-div ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-div li{
+    display: inline-block;
+}
+
+.nav-div a{
+    display: block;
+    padding: 0 15px;
+    color: black;
+    margin-top: 5px;
+    font-weight: 600;
+    opacity: .8;
+    text-decoration: none;
+
+}
+
+.nav-div a:hover{
+    color: #734046;
+}
+
+#link-a{
+    color: #734046
+}
+
+/* body */
+
+.container{
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.container .hr2{
+    margin-bottom: 15px;
+}
+
+.container h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.ri-le{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.ri-le .item2{
+    margin-top: 5px;
+    text-align: right;
+}
+
+/* form */
+
+.div-form{
+    background: #313840;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.inner-width{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.inner-width .user{
+    color: #70a1ff;
+}
+
+.div-form h1{
+    font-size: 20px;
+    color: #734046;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.div-form .link-button{
+    color: #734046;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #734046;
+    border-radius: 8px;
+    padding: 12px 40px;
+    text-decoration: none;
+
+}
+
+.div-form .link-button:hover{
+    background: #70a1ff;
+    color: #fff;
+    border: 1px solid #70a1ff;
+    transition: 0.4s linear;
+}
+
+
+/* footer */
+
+.footer-h1-title{
+    text-align: center;
+
+    margin-top: 60px;
+    color: black;
+    font-family: Lobster, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.footer-nav-div ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav-div li{
+    display: inline-block;
+}
+
+.footer-nav-div a{
+    display: block;
+    padding: 0 15px;
+    color: black;
+    margin-top: 30px;
+    font-weight: 600;
+    opacity: .8;
+}
+
+.footer-nav-div a:hover{
+    color: #734046;
+}
+
+.footer-hr{
+    margin-top: 80px;
+}
+
+.footer-copyright{
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: .5;
+    margin: 20px;
+}
+
+
