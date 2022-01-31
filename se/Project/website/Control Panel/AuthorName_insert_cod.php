@@ -10,8 +10,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $t2 = $_POST['token2'];
         if ($_POST['token2'] == $_SESSION['token']) {
             $sql = "insert into authorname (Name) VALUES
-                  ('$Name')";//جمله ادخال بيانتا
-            $reslt = mysqli_query($cone, $sql);//دالله الاادخال
+                  ('$Name')";//
+            $reslt = mysqli_query($cone, $sql);//
             if ($reslt) {//التأكد\ من الادخال  اذا كان صحيح ام  لا
                 echo '<div class="row"><div class="col-12"><div class="alert alert-success">New record created</div></div></div>';
             } else
